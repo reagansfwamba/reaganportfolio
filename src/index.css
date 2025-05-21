@@ -1,3 +1,11 @@
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        /* Any custom CSS */
+         body {
+            scroll-behavior: smooth;
+        }
         /* My color variables from coolors palette */
         :root {
             --teal: #61a0af;
@@ -8,7 +16,7 @@
             --dark: #283618;
             --light: #fefae0;
         }
-
+        
         /* Custom animations */
         @keyframes bounce {
             0%, 100% { transform: translateY(0) rotate(-2deg); }
